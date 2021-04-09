@@ -1,0 +1,62 @@
+a {
+  color: black;
+}
+
+p a {
+  color: blue;
+}
+
+img#logo {
+  width: 26rem;
+  height: 10rem;
+}
+
+#content {
+  text-align: center;
+  padding-top: 10%;
+}
+
+#search-bar {
+  border-radius: 2rem;
+  width: 35rem;
+  height: 2.5rem;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  /* display: inline-block; */
+}
+
+.input-icons i {
+  /* position: absolute; */
+  position: relative;
+}
+
+.input-icons {
+  /* width: 100%;
+  margin-bottom: 10px; */
+  width: 35rem;
+  height: 2.5rem;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
